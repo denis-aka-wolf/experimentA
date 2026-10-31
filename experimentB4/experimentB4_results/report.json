@@ -1,0 +1,187 @@
+{
+  "experiment": "B4",
+  "created_utc": "2026-10-31T17:37:00.439040+00:00",
+  "curve": "y^2 = x^3 + 7 mod 499",
+  "p": 499,
+  "affine_curve_points": 510,
+  "base_point_G": [
+    3,
+    212
+  ],
+  "order_G": 73,
+  "control_371G": [
+    449,
+    483
+  ],
+  "primitive_root": 7,
+  "frequencies": [
+    174,
+    1
+  ],
+  "fingerprint_definition": "T_t(P)=A_t(x_P)*exp(-2*pi*i*t*y_P/p); A_t(x)=sum chi3(u-x)*exp(2*pi*i*t*v/p)",
+  "cubic_character": "chi3(0)=0; chi3(7^e)=exp(2*pi*i*(e mod 3)/3)",
+  "finite_subgroup_scalars": "k=1,...,72; k=0 is infinity and has no complex fingerprint",
+  "results": {
+    "174": {
+      "finite_subgroup_points": 72,
+      "unique_fingerprints_exact_float": 72,
+      "minimum_pairwise_distance": 2.4523069591338067,
+      "maximum_pairwise_distance": 85.00224878182927,
+      "minimum_abs_A_t_x": 5.0424857567163,
+      "distinct_x_values": 36,
+      "nearest_lookup_correct": 72,
+      "nearest_lookup_total": 72,
+      "minimum_nearest_margin": 2.4523069591338067,
+      "noise_test": [
+        {
+          "t": 174,
+          "noise_epsilon": 0.0,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 2.4523069591338067
+        },
+        {
+          "t": 174,
+          "noise_epsilon": 1e-12,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 2.4523069591318745
+        },
+        {
+          "t": 174,
+          "noise_epsilon": 1e-10,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 2.45230695893681
+        },
+        {
+          "t": 174,
+          "noise_epsilon": 1e-08,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 2.452306939430628
+        },
+        {
+          "t": 174,
+          "noise_epsilon": 1e-06,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 2.452304988812297
+        },
+        {
+          "t": 174,
+          "noise_epsilon": 0.0001,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 2.452109927097182
+        },
+        {
+          "t": 174,
+          "noise_epsilon": 0.01,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 2.432604940547051
+        },
+        {
+          "t": 174,
+          "noise_epsilon": 0.1,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 2.2553989385032076
+        }
+      ]
+    },
+    "1": {
+      "finite_subgroup_points": 72,
+      "unique_fingerprints_exact_float": 72,
+      "minimum_pairwise_distance": 0.13176708133592083,
+      "maximum_pairwise_distance": 83.11872883215709,
+      "minimum_abs_A_t_x": 4.622493058907341,
+      "distinct_x_values": 36,
+      "nearest_lookup_correct": 72,
+      "nearest_lookup_total": 72,
+      "minimum_nearest_margin": 0.13176708133592083,
+      "noise_test": [
+        {
+          "t": 1,
+          "noise_epsilon": 0.0,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 0.13176708133592083
+        },
+        {
+          "t": 1,
+          "noise_epsilon": 1e-12,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 0.1317670813339215
+        },
+        {
+          "t": 1,
+          "noise_epsilon": 1e-10,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 0.13176708113592978
+        },
+        {
+          "t": 1,
+          "noise_epsilon": 1e-08,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 0.1317670613367044
+        },
+        {
+          "t": 1,
+          "noise_epsilon": 1e-06,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 0.13176508141417273
+        },
+        {
+          "t": 1,
+          "noise_epsilon": 0.0001,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 0.13156708916694365
+        },
+        {
+          "t": 1,
+          "noise_epsilon": 0.01,
+          "correct_count": 72,
+          "total": 72,
+          "accuracy": 1.0,
+          "minimum_nearest_margin": 0.11176792810375637
+        },
+        {
+          "t": 1,
+          "noise_epsilon": 0.1,
+          "correct_count": 68,
+          "total": 72,
+          "accuracy": 0.9444444444444444,
+          "minimum_nearest_margin": 0.002953928133431802
+        }
+      ]
+    }
+  },
+  "interpretation_warning": [
+    "Уникальность отпечатков на 72 точках не доказывает инъективность на других кривых.",
+    "Поиск ближайшего отпечатка использует заранее построенную таблицу.",
+    "Вычисление отпечатка целевой точки Q также требует вычислений.",
+    "Комплексные значения вычисляются с плавающей точкой.",
+    "Корреляции описывают только эту конечную последовательность и не дают общей формулы восстановления скаляра."
+  ]
+}

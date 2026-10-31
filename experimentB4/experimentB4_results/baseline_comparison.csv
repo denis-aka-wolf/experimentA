@@ -1,0 +1,5 @@
+﻿t,method,precomputation_fingerprints,query_fingerprint_calculations,query_point_additions_upper_bound,query_table_distance_checks,note
+174,brute_force_ECDLP,0,0,72,0,Последовательная проверка kG=Q. Максимум 72 кандидата.
+174,precomputed_fingerprint_lookup,72,1,0,72,Требуется заранее построенная таблица и вычисление T_t(Q).
+1,brute_force_ECDLP,0,0,72,0,Последовательная проверка kG=Q. Максимум 72 кандидата.
+1,precomputed_fingerprint_lookup,72,1,0,72,Требуется заранее построенная таблица и вычисление T_t(Q).
