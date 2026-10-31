@@ -1,0 +1,281 @@
+{
+  "experiment": "B5",
+  "created_utc": "2026-10-31T17:54:05.387703+00:00",
+  "curve": "y^2 = x^3 + 7 mod 499",
+  "p": 499,
+  "affine_curve_points": 510,
+  "base_point": [
+    3,
+    212
+  ],
+  "order": 73,
+  "control_371G": [
+    449,
+    483
+  ],
+  "frequencies": [
+    174,
+    1
+  ],
+  "train_rule": "k % 5 != 0",
+  "test_rule": "k % 5 == 0",
+  "train_count": 58,
+  "test_count": 14,
+  "feature_names": [
+    "Re(T)",
+    "Im(T)",
+    "abs(T)",
+    "cos(arg(T))",
+    "sin(arg(T))"
+  ],
+  "ridge_alphas": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "results": {
+    "174": {
+      "fingerprint_count": 72,
+      "unique_fingerprints": 72,
+      "minimum_separation": 2.4523069591338067,
+      "guaranteed_noise_radius": 1.2261534795669033,
+      "minimum_cyclic_delta_distance": 2.4523069591338067,
+      "blind_test": [
+        {
+          "t": 174,
+          "method": "nearest_neighbor",
+          "degree": 0,
+          "alpha": 0,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 23.428571428571427,
+          "max_circular_error": 36
+        },
+        {
+          "t": 174,
+          "method": "ridge",
+          "degree": 1,
+          "alpha": 0.01,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 14.928571428571429,
+          "max_circular_error": 32
+        },
+        {
+          "t": 174,
+          "method": "ridge",
+          "degree": 1,
+          "alpha": 0.1,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 14.928571428571429,
+          "max_circular_error": 32
+        },
+        {
+          "t": 174,
+          "method": "ridge",
+          "degree": 1,
+          "alpha": 1.0,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 15.214285714285714,
+          "max_circular_error": 32
+        },
+        {
+          "t": 174,
+          "method": "ridge",
+          "degree": 1,
+          "alpha": 10.0,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 17.285714285714285,
+          "max_circular_error": 36
+        },
+        {
+          "t": 174,
+          "method": "ridge",
+          "degree": 2,
+          "alpha": 0.01,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 17.285714285714285,
+          "max_circular_error": 36
+        },
+        {
+          "t": 174,
+          "method": "ridge",
+          "degree": 2,
+          "alpha": 0.1,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 17.142857142857142,
+          "max_circular_error": 35
+        },
+        {
+          "t": 174,
+          "method": "ridge",
+          "degree": 2,
+          "alpha": 1.0,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 16.142857142857142,
+          "max_circular_error": 33
+        },
+        {
+          "t": 174,
+          "method": "ridge",
+          "degree": 2,
+          "alpha": 10.0,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 16.214285714285715,
+          "max_circular_error": 31
+        }
+      ]
+    },
+    "1": {
+      "fingerprint_count": 72,
+      "unique_fingerprints": 72,
+      "minimum_separation": 0.13176708133592083,
+      "guaranteed_noise_radius": 0.06588354066796041,
+      "minimum_cyclic_delta_distance": 0.13176708133592083,
+      "blind_test": [
+        {
+          "t": 1,
+          "method": "nearest_neighbor",
+          "degree": 0,
+          "alpha": 0,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 19.928571428571427,
+          "max_circular_error": 33
+        },
+        {
+          "t": 1,
+          "method": "ridge",
+          "degree": 1,
+          "alpha": 0.01,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 21.642857142857142,
+          "max_circular_error": 36
+        },
+        {
+          "t": 1,
+          "method": "ridge",
+          "degree": 1,
+          "alpha": 0.1,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 21.642857142857142,
+          "max_circular_error": 36
+        },
+        {
+          "t": 1,
+          "method": "ridge",
+          "degree": 1,
+          "alpha": 1.0,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 21.5,
+          "max_circular_error": 36
+        },
+        {
+          "t": 1,
+          "method": "ridge",
+          "degree": 1,
+          "alpha": 10.0,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 21.642857142857142,
+          "max_circular_error": 36
+        },
+        {
+          "t": 1,
+          "method": "ridge",
+          "degree": 2,
+          "alpha": 0.01,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 20.0,
+          "max_circular_error": 35
+        },
+        {
+          "t": 1,
+          "method": "ridge",
+          "degree": 2,
+          "alpha": 0.1,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 19.928571428571427,
+          "max_circular_error": 35
+        },
+        {
+          "t": 1,
+          "method": "ridge",
+          "degree": 2,
+          "alpha": 1.0,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 20.285714285714285,
+          "max_circular_error": 35
+        },
+        {
+          "t": 1,
+          "method": "ridge",
+          "degree": 2,
+          "alpha": 10.0,
+          "train_count": 58,
+          "test_count": 14,
+          "exact_count": 0,
+          "accuracy": 0.0,
+          "mean_circular_error": 20.285714285714285,
+          "max_circular_error": 36
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Результаты относятся только к игрушечной кривой и данной подгруппе.",
+    "Тестовая выборка содержит только 14 точек.",
+    "Модели обучаются на конечном наборе скалярных значений.",
+    "Наличие успешной регрессии не доказывает существование эффективного алгоритма ECDLP.",
+    "Модели используют вещественные и комплексные числа с плавающей точкой.",
+    "Ближайший сосед среди обучающих точек не эквивалентен полному табличному поиску."
+  ]
+}
