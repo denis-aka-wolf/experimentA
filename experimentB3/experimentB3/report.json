@@ -1,0 +1,91 @@
+{
+  "experiment": "B3",
+  "curve": {
+    "equation": "y^2 = x^3 + 7 mod 499",
+    "p": 499,
+    "a": 0,
+    "b": 7,
+    "affine_points": 510,
+    "total_points_including_infinity": 511
+  },
+  "subgroup": {
+    "base_point": [
+      3,
+      212
+    ],
+    "order": 73,
+    "point_count": 73,
+    "distinct_finite_x_values": 36,
+    "check_371G": [
+      449,
+      483
+    ]
+  },
+  "character": {
+    "type": "cubic multiplicative character",
+    "primitive_root": 7,
+    "omega_mod_p": 139,
+    "omega2_mod_p": 359
+  },
+  "fingerprint": {
+    "formula": "T_t(P) = A_t(x_P) * exp(-2*pi*i*t*y_P/p)",
+    "A_formula": "A_t(x) = sum_R chi3(u-x) * exp(2*pi*i*t*v/p)",
+    "curve_sum": "All 510 affine points; point at infinity handled separately"
+  },
+  "frequency_test": {
+    "first_t": 1,
+    "last_t": 498,
+    "tested_frequencies": 498,
+    "all_nonzero_frequencies_tested": true
+  },
+  "rounding_digits": [
+    8,
+    10,
+    12,
+    14
+  ],
+  "zero_tolerance": 1e-12,
+  "t1": {
+    "unique_round_8": 73,
+    "unique_round_10": 73,
+    "unique_round_12": 73,
+    "unique_round_14": 73,
+    "collisions_round_10": 0,
+    "min_pairwise_distance": 0.13176708133592083,
+    "min_opposite_pair_distance": 0.13176708133592083,
+    "min_A_abs": 4.622493058907339,
+    "near_zero_A_count": 0
+  },
+  "best_t": {
+    "t": 174,
+    "unique_round_8": 73,
+    "unique_round_10": 73,
+    "unique_round_12": 73,
+    "unique_round_14": 73,
+    "collisions_round_10": 0,
+    "min_pairwise_distance": 2.4523069591345337,
+    "min_opposite_pair_distance": 5.0074794242062755,
+    "min_A_abs": 5.042485756717434,
+    "near_zero_A_count": 0
+  },
+  "opposite_pairs_t1": {
+    "total_pairs": 36,
+    "distinct_pairs": 36,
+    "minimum_distance": 0.13176708133592083,
+    "maximum_distance": 83.11872883215703
+  },
+  "collision_summary": {
+    "frequencies_with_collisions": 0,
+    "total_collision_groups": 0
+  },
+  "files": [
+    "fingerprints.csv",
+    "t_scores.csv",
+    "at_x_diagnostics.csv",
+    "pair_distances_t1.csv",
+    "collisions.json",
+    "report.json",
+    "README_results.txt"
+  ],
+  "important_limitation": "Injectivity on this finite subgroup does not demonstrate an algorithm for solving ECDLP. The fingerprint is computed from a known point and still requires a separate method for recovering k."
+}
