@@ -1,0 +1,246 @@
+{
+    "experiment": "B6",
+    "timestamp_utc": "2026-10-31T17:59:29.750773+00:00",
+    "curve": {
+        "p": 499,
+        "a": 0,
+        "b": 7,
+        "equation": "y^2 = x^3 + 7 mod 499",
+        "affine_point_count": 510,
+        "base_point": [
+            3,
+            212
+        ],
+        "base_point_order": 73
+    },
+    "frequencies": {
+        "1": {
+            "direct_formula_check": {
+                "count": 72,
+                "max_absolute_error": 4.935587579328812e-14,
+                "mean_absolute_error": 1.9818106631768714e-14,
+                "passed": true
+            },
+            "antipodal": {
+                "pair_count": 36,
+                "successful_y_recoveries": 36,
+                "failed_y_recoveries": 0,
+                "max_ratio_formula_error": 8.262821341922353e-16,
+                "mean_ratio_formula_error": 3.9187268421537035e-16
+            },
+            "magnitude": {
+                "x_count": 36,
+                "unique_rounded_magnitudes": 12,
+                "rounded_collision_groups": [
+                    [
+                        3,
+                        79,
+                        417
+                    ],
+                    [
+                        10,
+                        97,
+                        392
+                    ],
+                    [
+                        14,
+                        36,
+                        449
+                    ],
+                    [
+                        68,
+                        460,
+                        470
+                    ],
+                    [
+                        74,
+                        119,
+                        306
+                    ],
+                    [
+                        104,
+                        410,
+                        484
+                    ],
+                    [
+                        161,
+                        414,
+                        423
+                    ],
+                    [
+                        175,
+                        373,
+                        450
+                    ],
+                    [
+                        204,
+                        382,
+                        412
+                    ],
+                    [
+                        243,
+                        344,
+                        411
+                    ],
+                    [
+                        251,
+                        289,
+                        458
+                    ],
+                    [
+                        268,
+                        326,
+                        404
+                    ]
+                ],
+                "minimum_magnitude_separation": 0.0,
+                "maximum_magnitude_separation": 40.033567122281895,
+                "nearest_lookup_correct": 34,
+                "nearest_lookup_total": 36
+            },
+            "neighbors": {
+                "plus_transition_count": 71,
+                "minus_transition_count": 71,
+                "plus_ratio_mean": "0.167237533389871+0.147014810994292j",
+                "minus_ratio_mean": "-0.187400792727094+0.0367152484177434j",
+                "plus_difference_mean": 30.273576393502783,
+                "minus_difference_mean": 30.273576393502783,
+                "plus_difference_min": 1.065514631850758,
+                "minus_difference_min": 1.065514631850758
+            },
+            "recurrence": {
+                "transition_count": 71,
+                "model": "T_next = a*T_current + b",
+                "a_real": -0.11964394159154607,
+                "a_imag": 0.056673675158608494,
+                "b_real": -0.21712908919036997,
+                "b_imag": 0.1517695453194633,
+                "rmse": 22.707694046830902,
+                "mean_absolute_error": 19.476990620716503,
+                "maximum_absolute_error": 44.896416323529046,
+                "mean_target_magnitude": 19.748181256004063
+            },
+            "fingerprint_separation": {
+                "finite_fingerprint_count": 72,
+                "unique_rounded_fingerprints": 72,
+                "minimum_pairwise_distance": 0.13176708133592083,
+                "maximum_pairwise_distance": 83.11872883215709,
+                "guaranteed_nearest_neighbor_noise_radius": 0.06588354066796041
+            }
+        },
+        "174": {
+            "direct_formula_check": {
+                "count": 72,
+                "max_absolute_error": 5.753312400962914e-14,
+                "mean_absolute_error": 2.1116186771724815e-14,
+                "passed": true
+            },
+            "antipodal": {
+                "pair_count": 36,
+                "successful_y_recoveries": 36,
+                "failed_y_recoveries": 0,
+                "max_ratio_formula_error": 9.550499576785472e-16,
+                "mean_ratio_formula_error": 3.807710329926785e-16
+            },
+            "magnitude": {
+                "x_count": 36,
+                "unique_rounded_magnitudes": 12,
+                "rounded_collision_groups": [
+                    [
+                        3,
+                        79,
+                        417
+                    ],
+                    [
+                        10,
+                        97,
+                        392
+                    ],
+                    [
+                        14,
+                        36,
+                        449
+                    ],
+                    [
+                        68,
+                        460,
+                        470
+                    ],
+                    [
+                        74,
+                        119,
+                        306
+                    ],
+                    [
+                        104,
+                        410,
+                        484
+                    ],
+                    [
+                        161,
+                        414,
+                        423
+                    ],
+                    [
+                        175,
+                        373,
+                        450
+                    ],
+                    [
+                        204,
+                        382,
+                        412
+                    ],
+                    [
+                        243,
+                        344,
+                        411
+                    ],
+                    [
+                        251,
+                        289,
+                        458
+                    ],
+                    [
+                        268,
+                        326,
+                        404
+                    ]
+                ],
+                "minimum_magnitude_separation": 0.0,
+                "maximum_magnitude_separation": 39.907264713924086,
+                "nearest_lookup_correct": 31,
+                "nearest_lookup_total": 36
+            },
+            "neighbors": {
+                "plus_transition_count": 71,
+                "minus_transition_count": 71,
+                "plus_ratio_mean": "-0.0259545173207737-0.194100992413374j",
+                "minus_ratio_mean": "-0.0391794212377896-0.185396505586596j",
+                "plus_difference_mean": 27.457919676084693,
+                "minus_difference_mean": 27.457919676084693,
+                "plus_difference_min": 3.1584759638034727,
+                "minus_difference_min": 3.1584759638034727
+            },
+            "recurrence": {
+                "transition_count": 71,
+                "model": "T_next = a*T_current + b",
+                "a_real": 0.12136690668976793,
+                "a_imag": 0.01893635438642638,
+                "b_real": 0.01477843847321419,
+                "b_imag": -0.250331659907213,
+                "rmse": 23.95502912777855,
+                "mean_absolute_error": 20.888379031725336,
+                "maximum_absolute_error": 48.30078669262637,
+                "mean_target_magnitude": 21.076451384196325
+            },
+            "fingerprint_separation": {
+                "finite_fingerprint_count": 72,
+                "unique_rounded_fingerprints": 72,
+                "minimum_pairwise_distance": 2.452306959133808,
+                "maximum_pairwise_distance": 85.00224878182928,
+                "guaranteed_nearest_neighbor_noise_radius": 1.226153479566904
+            }
+        }
+    }
+}
