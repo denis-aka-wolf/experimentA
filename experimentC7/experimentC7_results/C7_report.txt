@@ -1,0 +1,34 @@
+ЭКСПЕРИМЕНТ C7
+============================================================
+Дата: 2026-11-02T10:43:15.370206
+Кривая: y^2 = x^3 + 7 mod 499
+Генератор: (3, 212)
+Порядок: 73
+Размер выборки: 68
+
+СРАВНЕНИЕ МОДЕЛЕЙ
+coordinates_xy | features=2 | N=68 | accuracy=0.0294 | MAE=19.3907
+coordinate_differences | features=8 | N=68 | accuracy=0.0000 | MAE=30.0026
+modular_differences | features=8 | N=68 | accuracy=0.0000 | MAE=17.2896
+euclidean_distances | features=4 | N=68 | accuracy=0.0000 | MAE=18.1084
+modular_distances | features=4 | N=68 | accuracy=0.0000 | MAE=22.2740
+centered_vectors | features=8 | N=68 | accuracy=0.0000 | MAE=30.0040
+angles | features=3 | N=68 | accuracy=0.0294 | MAE=18.0838
+areas | features=4 | N=68 | accuracy=0.0000 | MAE=26.8395
+distance_ratios | features=4 | N=68 | accuracy=0.0147 | MAE=21.8503
+normalized_geometry | features=8 | N=68 | accuracy=0.0000 | MAE=20.6623
+all_features | features=53 | N=68 | accuracy=0.0294 | MAE=18.2436
+
+ПЕРЕСТАНОВОЧНЫЙ КОНТРОЛЬ
+Лучшая модель: angles
+Observed accuracy: 0.0294
+Random mean: 0.0126
+Permutation p-value: 0.2098
+Circular MAE: 18.0838
+
+МЕТОДОЛОГИЧЕСКИЕ ОГРАНИЧЕНИЯ
+1. Игрушечная группа содержит только 73 элемента.
+2. Координаты являются представителями классов по модулю P.
+3. Евклидовы признаки зависят от выбора числового представления.
+4. Высокая точность на этой группе не доказывает переносимость на криптографические кривые.
+5. Эксперимент не использует таблицу скалярных соответствий как входные признаки модели.
