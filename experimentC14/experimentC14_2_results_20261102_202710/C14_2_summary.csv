@@ -1,0 +1,15 @@
+﻿metric;value
+observed_model;lift_dynamics
+observed_gamma;0.3
+observed_alpha;0.01
+observed_mae;23.48611111111111
+observed_accuracy;0.0
+null_mean_mae;16.17999438832772
+null_std_mae;0.9911122199031682
+null_min_mae;13.180555555555555
+null_max_mae;18.13888888888889
+null_mean_accuracy;0.016414141414141416
+null_max_accuracy;0.06944444444444445
+p_value_mae;1.0
+p_value_accuracy;1.0
+permutations;99

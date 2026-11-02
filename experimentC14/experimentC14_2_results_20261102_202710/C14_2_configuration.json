@@ -1,0 +1,46 @@
+{
+    "experiment": "C14_2",
+    "title": "Исправленная геометрическая кривизна переходов",
+    "field_p": 499,
+    "curve_a": 0,
+    "curve_b": 7,
+    "generator": [
+        3,
+        212
+    ],
+    "group_order": 73,
+    "offsets": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+    ],
+    "purge_radius": 6,
+    "folds_count": 6,
+    "permutations": 99,
+    "random_seed": 140314,
+    "gammas": [
+        0.03,
+        0.1,
+        0.3
+    ],
+    "alphas": [
+        0.01,
+        0.1
+    ],
+    "models": [
+        "xy_control",
+        "local_orbit",
+        "transition_core",
+        "lift_dynamics",
+        "slope_dynamics",
+        "symmetry",
+        "combined"
+    ],
+    "python_version": "3.15.2",
+    "numpy_version": "2.5.4",
+    "platform": "Windows-10-10.0.19045-SP0"
+}
