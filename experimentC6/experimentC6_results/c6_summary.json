@@ -1,0 +1,25 @@
+{
+  "experiment": "C6",
+  "curve": "y^2 = x^3 + 7 mod 499",
+  "generator": [
+    3,
+    212
+  ],
+  "order": 73,
+  "window_radius": 2,
+  "ridge_alpha": 10.0,
+  "permutations": 100,
+  "best_model": {
+    "model": "distances",
+    "features": 8,
+    "samples": 68,
+    "accuracy": 0.0,
+    "circular_mae": 18.735294117647058
+  },
+  "permutation_control": {
+    "observed_accuracy": 0.0,
+    "permutation_mean": 0.011470588235294116,
+    "p_value": 1.0,
+    "circular_mae": 18.735294117647058
+  }
+}
