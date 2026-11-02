@@ -1,0 +1,84 @@
+ЭКСПЕРИМЕНТ C13
+Проективная геометрия конфигурации кратных точек
+
+p = 499
+Кривая: y^2 = x^3 + 7 mod 499
+G = (3, 212)
+Порядок G = 73
+Ненулевых точек = 72
+
+Кратные точки: Q, 2Q, ..., 8Q
+Количество хорд: 28
+Количество cross-ratio: 70
+
+ЛУЧШАЯ МОДЕЛЬ
+Модель: orbit_x
+Gamma: 1.0
+Alpha: 0.01
+MAE: 18.750000
+Accuracy: 0.000000
+
+ПЕРЕСТАНОВОЧНЫЙ КОНТРОЛЬ
+Перестановок: 99
+Observed best MAE: 18.750000
+Null mean MAE: 16.243406
+Null minimum MAE: 13.402778
+p-value MAE: 1.000000
+
+Observed max accuracy: 0.027778
+Null mean accuracy: 0.047138
+p-value accuracy: 1.000000
+
+Случайный точный baseline: 1/72 = 1.388889%
+
+ВСЕ МОДЕЛИ
+orbit_x, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=18.750000
+projective_full, gamma=0.1, alpha=0.01, accuracy=0.027778, MAE=18.888889
+orbit_x, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=19.333333
+orbit_x, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=19.611111
+complete_geometry, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=20.166667
+projective_full, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=20.361111
+chord_lines, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=20.944444
+chord_lines, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=21.055556
+projective_full, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=21.083333
+complete_geometry, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=21.194444
+projective_full, gamma=0.1, alpha=0.1, accuracy=0.027778, MAE=21.277778
+chord_lines, gamma=0.1, alpha=0.1, accuracy=0.027778, MAE=22.194444
+orbit_xy, gamma=0.3, alpha=0.01, accuracy=0.027778, MAE=22.416667
+complete_geometry, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=22.555556
+orbit_x, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=22.888889
+orbit_x, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=23.027778
+chord_slopes, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=23.055556
+chord_lines, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=23.055556
+projective_full, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=23.083333
+chord_slopes, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=23.111111
+complete_geometry, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=23.138889
+chord_slopes, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=23.166667
+complete_geometry, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=23.444444
+complete_geometry, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=23.472222
+projective_full, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=23.722222
+chord_slopes, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=23.805556
+chord_slopes, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=23.833333
+orbit_xy, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=23.861111
+chord_lines, gamma=1.0, alpha=0.01, accuracy=0.027778, MAE=24.055556
+chord_slopes, gamma=0.1, alpha=0.1, accuracy=0.027778, MAE=24.388889
+chord_lines, gamma=1.0, alpha=0.1, accuracy=0.027778, MAE=24.500000
+orbit_xy, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=24.555556
+xy_control, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=24.611111
+cross_ratios, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=24.611111
+cross_ratios, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=24.611111
+cross_ratios, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=24.611111
+cross_ratios, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=24.611111
+cross_ratios, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=24.750000
+orbit_xy, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=24.833333
+orbit_xy, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=24.916667
+cross_ratios, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=25.027778
+orbit_xy, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=25.222222
+xy_control, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=25.555556
+orbit_x, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=26.083333
+xy_control, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=27.638889
+xy_control, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=29.638889
+xy_control, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=30.111111
+xy_control, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=31.138889
+
+Время выполнения: 13.85 сек.
