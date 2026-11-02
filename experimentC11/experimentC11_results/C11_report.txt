@@ -1,0 +1,35 @@
+EXPERIMENT C11
+Multiplicative geometric orbit
+
+P = 499
+G = (3, 212)
+ORDER = 73
+MULTIPLIERS = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+SAMPLES = 72
+FOLDS = 6
+PURGE_RADIUS = 2
+PERMUTATIONS = 99
+
+BEST MAE MODEL
+model = mul_xy_2_13
+gamma = 3.0
+alpha = 0.01
+accuracy = 0.0
+mae = 20.194444444444443
+
+STATISTICS
+random_mean_mae = 16.181257014590347
+random_min_mae = 14.097222222222221
+p_mae = 1.0
+observed_max_accuracy = 0.013888888888888888
+random_mean_accuracy = 0.037037037037037035
+p_accuracy = 1.0
+
+INTERPRETATION
+Features are computed from Q and fixed small multipliers.
+No candidate scalar enumeration is performed.
+All models use the same samples and fixed folds.
+Permutation changes targets but not fold positions.
+A significant result would indicate an association
+under the tested permutation null, not a general ECDLP solution.
