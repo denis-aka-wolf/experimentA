@@ -1,0 +1,33 @@
+EXPERIMENT C10
+Corrected geometric triangulation
+
+p = 499
+curve: y^2 = x^3 + 7
+G = (3, 212)
+order = 73
+
+sample_count = 64
+anchor_count = 8
+folds = 6
+purge_radius = 2
+permutations = 99
+
+BEST MAE CONFIGURATION
+model = anchors8_relational
+gamma = 3.0
+alpha = 0.01
+accuracy = 0.0
+mae = 19.625
+
+STATISTICS
+random_mean_mae = 16.89157196969697
+random_min_mae = 13.65625
+p_mae = 0.97
+observed_max_accuracy = 0.015625
+random_mean_max_accuracy = 0.041193181818181816
+p_accuracy = 1.0
+
+INTERPRETATION
+A result with p < 0.05 is evidence of a statistical association under this permutation null.
+It is not by itself evidence of a general ECDLP solution.
+The model uses supervised scalar labels from the remaining sample points.
