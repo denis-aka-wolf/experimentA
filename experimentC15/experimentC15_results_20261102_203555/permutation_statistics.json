@@ -1,0 +1,12 @@
+{
+    "primary_null_mean_mae": 17.709013209013207,
+    "primary_null_min_mae": 16.97222222222222,
+    "primary_null_max_mae": 18.231060606060606,
+    "primary_p_value": 0.375,
+    "primary_accuracy_null_max": 0.030303030303030304,
+    "primary_accuracy_p_value": 0.225,
+    "diagnostic_null_mean_mae": 18.07566045066045,
+    "diagnostic_null_min_mae": 16.94823232323232,
+    "diagnostic_p_value": 0.025,
+    "diagnostic_accuracy_p_value": 0.025
+}

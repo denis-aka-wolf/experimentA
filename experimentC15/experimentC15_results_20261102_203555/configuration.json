@@ -1,0 +1,65 @@
+{
+    "experiment": "experimentC15",
+    "curve": {
+        "p": 499,
+        "a": 0,
+        "b": 7,
+        "generator": [
+            3,
+            212
+        ],
+        "group_order": 73
+    },
+    "random_seed": 15015,
+    "fold_count": 6,
+    "nodes_per_fold": 12,
+    "maximum_training_pairs": 900,
+    "permutation_count": 39,
+    "primary_feature_blocks": [
+        "xy_control",
+        "euclidean_geometry",
+        "finite_field_chord",
+        "combined_geometry"
+    ],
+    "diagnostic_feature_blocks": [
+        "group_difference_control"
+    ],
+    "models": [
+        {
+            "name": "knn_5",
+            "type": "knn",
+            "neighbors": 5,
+            "weights": "distance"
+        },
+        {
+            "name": "knn_15",
+            "type": "knn",
+            "neighbors": 15,
+            "weights": "distance"
+        },
+        {
+            "name": "knn_31",
+            "type": "knn",
+            "neighbors": 31,
+            "weights": "distance"
+        },
+        {
+            "name": "extra_trees_120",
+            "type": "extra_trees",
+            "estimators": 120,
+            "max_depth": 14,
+            "min_samples_leaf": 3
+        },
+        {
+            "name": "extra_trees_160",
+            "type": "extra_trees",
+            "estimators": 160,
+            "max_depth": null,
+            "min_samples_leaf": 5
+        }
+    ],
+    "python_version": "3.15.2",
+    "numpy_version": "2.5.4",
+    "pandas_version": "3.1.0",
+    "sklearn_version": "1.9.1"
+}
