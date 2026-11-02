@@ -1,0 +1,100 @@
+{
+  "experiment": "C5",
+  "curve": "y^2 = x^3 + 7 mod 499",
+  "generator": [
+    3,
+    212
+  ],
+  "order": 73,
+  "finite_transitions": 71,
+  "window_lengths": [
+    3,
+    5,
+    7
+  ],
+  "ridge_alpha": 10.0,
+  "permutations": 100,
+  "random_seed": 20261023,
+  "best_configuration": {
+    "origin_shift": 0,
+    "window_length": 7,
+    "feature_kind": "center_qy",
+    "samples": 65,
+    "accuracy": 0.015384615384615385,
+    "circular_mae": 18.43076923076923
+  },
+  "permutation_control": {
+    "observed_accuracy": 0.015384615384615385,
+    "permutation_mean_accuracy": 0.015692307692307693,
+    "p_value": 0.6732673267326733,
+    "circular_mae": 18.43076923076923
+  },
+  "origin_shifts": [
+    {
+      "origin_shift": 0,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    },
+    {
+      "origin_shift": 1,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    },
+    {
+      "origin_shift": 3,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    },
+    {
+      "origin_shift": 7,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    },
+    {
+      "origin_shift": 11,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    },
+    {
+      "origin_shift": 18,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    },
+    {
+      "origin_shift": 27,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    },
+    {
+      "origin_shift": 36,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    },
+    {
+      "origin_shift": 49,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    },
+    {
+      "origin_shift": 61,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    },
+    {
+      "origin_shift": 72,
+      "samples": 65,
+      "accuracy": 0.015384615384615385,
+      "circular_mae": 18.43076923076923
+    }
+  ]
+}
