@@ -1,0 +1,77 @@
+ЭКСПЕРИМЕНТ C12
+Алгебраическая сигнатура через полиномы деления
+
+p = 499
+Кривая: y^2 = x^3 + 7 mod 499
+G = (3, 212)
+Порядок G = 73
+Ненулевых точек = 72
+
+ПОЛИНОМЫ ДЕЛЕНИЯ
+Диапазон m: 2..20
+
+ЛУЧШАЯ МОДЕЛЬ
+Модель: psi_centered
+Gamma: 0.3
+Alpha: 0.01
+MAE: 18.444444
+Accuracy: 0.000000
+
+ПЕРЕСТАНОВОЧНЫЙ КОНТРОЛЬ
+Перестановок: 99
+Observed best MAE: 18.444444
+Null mean MAE: 16.109848
+Null minimum MAE: 13.402778
+p-value MAE: 0.990000
+
+Observed max accuracy: 0.027778
+Null mean accuracy: 0.045595
+p-value accuracy: 1.000000
+
+Случайный точный baseline: 1/72 = 1.388889%
+
+ОБЩИЙ СПИСОК МОДЕЛЕЙ
+psi_centered, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=18.444444
+psi_centered, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=18.555556
+psi_centered_xy, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=18.777778
+psi_squared, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=19.444444
+psi_centered_xy, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=19.500000
+psi_squared, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=19.527778
+psi_squared, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=19.638889
+psi_centered, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=19.777778
+psi_squared, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=20.222222
+psi_centered, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=20.472222
+psi_centered, gamma=0.1, alpha=0.1, accuracy=0.027778, MAE=20.583333
+psi_squared, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=20.694444
+psi_centered_xy, gamma=1.0, alpha=0.01, accuracy=0.027778, MAE=20.722222
+psi_centered_xy, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=20.777778
+psi_adjacent_ratio, gamma=0.3, alpha=0.01, accuracy=0.027778, MAE=20.944444
+psi_centered, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=20.972222
+psi_centered_xy, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=21.166667
+psi_centered_xy, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=21.194444
+psi_mixed, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=21.222222
+psi_mixed, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=21.250000
+psi_legendre, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=21.777778
+psi_legendre, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=21.777778
+psi_legendre, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=21.861111
+psi_legendre, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=21.861111
+psi_adjacent_ratio, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=21.888889
+psi_mixed, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=22.000000
+psi_legendre, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=22.027778
+psi_mixed, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=22.083333
+psi_legendre, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=22.138889
+psi_mixed, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=22.611111
+psi_mixed, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=22.638889
+psi_squared, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=23.444444
+psi_adjacent_ratio, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=23.916667
+psi_adjacent_ratio, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=24.166667
+xy_control, gamma=1.0, alpha=0.01, accuracy=0.000000, MAE=24.611111
+psi_adjacent_ratio, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=24.972222
+xy_control, gamma=1.0, alpha=0.1, accuracy=0.000000, MAE=25.555556
+psi_adjacent_ratio, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=26.750000
+xy_control, gamma=0.3, alpha=0.01, accuracy=0.000000, MAE=27.638889
+xy_control, gamma=0.3, alpha=0.1, accuracy=0.000000, MAE=29.638889
+xy_control, gamma=0.1, alpha=0.01, accuracy=0.000000, MAE=30.111111
+xy_control, gamma=0.1, alpha=0.1, accuracy=0.000000, MAE=31.138889
+
+Время выполнения: 10.56 сек.
