@@ -1,0 +1,61 @@
+ЭКСПЕРИМЕНТ C9
+======================================================================
+Дата: 2026-11-02T12:13:22.239802
+Кривая: y^2 = x^3 + 7 mod 499
+Генератор: (3, 212)
+Порядок: 73
+
+BLOCKED CROSS-VALIDATION
+anchors_8_distances | gamma=3.0 | alpha=0.01 | accuracy=0.0000 | MAE=19.0929
+anchors_8_vectors | gamma=3.0 | alpha=0.01 | accuracy=0.0000 | MAE=20.5280
+anchors_8_vectors | gamma=1.0 | alpha=0.01 | accuracy=0.0000 | MAE=20.6529
+anchors_8_distances | gamma=1.0 | alpha=0.01 | accuracy=0.0156 | MAE=20.9081
+anchors_8_distances | gamma=3.0 | alpha=0.1 | accuracy=0.0000 | MAE=20.9701
+anchors_4_distances | gamma=3.0 | alpha=0.01 | accuracy=0.0147 | MAE=21.0954
+anchors_8_vectors | gamma=3.0 | alpha=0.1 | accuracy=0.0000 | MAE=21.2680
+anchors_4_vectors | gamma=3.0 | alpha=0.01 | accuracy=0.0000 | MAE=21.5701
+anchors_4_distances | gamma=3.0 | alpha=0.1 | accuracy=0.0294 | MAE=21.7838
+xy_control | gamma=3.0 | alpha=0.01 | accuracy=0.0000 | MAE=21.8332
+anchors_4_distances | gamma=1.0 | alpha=0.01 | accuracy=0.0000 | MAE=21.9972
+anchors_4_vectors | gamma=3.0 | alpha=0.1 | accuracy=0.0000 | MAE=22.8833
+anchors_4_vectors | gamma=1.0 | alpha=0.01 | accuracy=0.0000 | MAE=23.1245
+anchors_4_distances | gamma=1.0 | alpha=0.1 | accuracy=0.0441 | MAE=23.5716
+anchors_8_vectors | gamma=1.0 | alpha=0.1 | accuracy=0.0156 | MAE=23.6047
+anchors_4_vectors | gamma=0.3 | alpha=0.01 | accuracy=0.0000 | MAE=23.9753
+anchors_8_vectors | gamma=0.3 | alpha=0.01 | accuracy=0.0000 | MAE=24.0847
+anchors_4_vectors | gamma=1.0 | alpha=0.1 | accuracy=0.0000 | MAE=24.5381
+xy_control | gamma=3.0 | alpha=0.1 | accuracy=0.0000 | MAE=24.7723
+anchors_4_distances | gamma=0.3 | alpha=0.01 | accuracy=0.0000 | MAE=24.7973
+anchors_8_distances | gamma=1.0 | alpha=0.1 | accuracy=0.0000 | MAE=24.9790
+anchors_8_distances | gamma=0.3 | alpha=0.01 | accuracy=0.0000 | MAE=25.1762
+xy_control | gamma=1.0 | alpha=0.01 | accuracy=0.0000 | MAE=25.6168
+anchors_8_vectors | gamma=0.3 | alpha=0.1 | accuracy=0.0156 | MAE=26.6246
+anchors_4_vectors | gamma=0.3 | alpha=0.1 | accuracy=0.0000 | MAE=26.8396
+anchors_8_distances | gamma=0.3 | alpha=0.1 | accuracy=0.0000 | MAE=27.6671
+anchors_4_distances | gamma=0.3 | alpha=0.1 | accuracy=0.0000 | MAE=28.3356
+xy_control | gamma=1.0 | alpha=0.1 | accuracy=0.0000 | MAE=28.4111
+xy_control | gamma=0.3 | alpha=0.01 | accuracy=0.0147 | MAE=28.6882
+xy_control | gamma=0.3 | alpha=0.1 | accuracy=0.0000 | MAE=30.5416
+
+ЛУЧШАЯ КОНФИГУРАЦИЯ
+Представление: anchors_8_distances
+Gamma: 3.0
+Alpha: 0.01
+Accuracy: 0.0
+Circular MAE: 19.092885384177176
+
+ПЕРЕСТАНОВОЧНЫЙ КОНТРОЛЬ
+Random MAE mean: 20.18587389115659
+Random MAE min: 17.533624816689375
+Permutation p-value MAE: 0.15841584158415842
+Random Accuracy mean: 0.007270220588235295
+Permutation p-value Accuracy: 1.0
+
+МЕТОДОЛОГИЧЕСКИЕ ОГРАНИЧЕНИЯ
+1. Используется небольшая игрушечная группа порядка 73.
+2. Опорные точки являются известными кратными генератора.
+3. Число ориентиров существенно меньше порядка группы.
+4. Геометрические расстояния зависят от представления координат в конечном поле.
+5. Blocked CV исключает тестовый участок и защитную зону вокруг него.
+6. Перестановочный контроль учитывает выбор лучшей конфигурации среди проверенных вариантов.
+7. Результат не доказывает возможность восстановления скаляра на secp256k1.
