@@ -1,0 +1,63 @@
+{
+    "experiment": "C16",
+    "timestamp": "2026-11-02T20:58:03.736596",
+    "curve": {
+        "p": 499,
+        "a": 0,
+        "b": 7,
+        "generator": [
+            3,
+            212
+        ],
+        "group_order": 73
+    },
+    "dataset": {
+        "total_ordered_pairs": 5112,
+        "fold_count": 6,
+        "nodes_per_fold": 12,
+        "max_train_pairs": 900
+    },
+    "best_geometric_pipeline": {
+        "pipeline_type": "Геометрическая цепочка",
+        "feature_set": "xy_control",
+        "model": "extra_trees_160",
+        "train_pair_count": 3540.0,
+        "train_sample_count": 900.0,
+        "test_pair_count": 132.0,
+        "decoder_coverage": 72.0,
+        "r_x_mae": 148.75704457829102,
+        "r_y_mae": 145.8824077286175,
+        "r_coordinate_mae": 147.31972615345424,
+        "r_euclidean_mae": 222.88376111793943,
+        "stage2_scalar_mae": 17.67550505050505,
+        "stage2_scalar_accuracy": 0.011363636363636362,
+        "oracle_decoder_mae": 0.0,
+        "oracle_decoder_accuracy": 1.0,
+        "mean_decoder_distance": 0.1363138715540087,
+        "oracle_mean_decoder_distance": 0.0,
+        "direct_scalar_mae": NaN,
+        "direct_scalar_accuracy": NaN
+    },
+    "best_direct_pipeline": {
+        "pipeline_type": "Прямое предсказание скаляра",
+        "feature_set": "combined_geometry",
+        "model": "extra_trees_classifier_180",
+        "train_pair_count": 3540.0,
+        "train_sample_count": 900.0,
+        "test_pair_count": 132.0,
+        "decoder_coverage": 72.0,
+        "r_x_mae": NaN,
+        "r_y_mae": NaN,
+        "r_coordinate_mae": NaN,
+        "r_euclidean_mae": NaN,
+        "stage2_scalar_mae": NaN,
+        "stage2_scalar_accuracy": NaN,
+        "oracle_decoder_mae": NaN,
+        "oracle_decoder_accuracy": NaN,
+        "mean_decoder_distance": NaN,
+        "oracle_mean_decoder_distance": NaN,
+        "direct_scalar_mae": 17.18813131313131,
+        "direct_scalar_accuracy": 0.09217171717171718
+    },
+    "interpretation_warning": "Координаты истинной групповой разности используются только как обучающие ответы и для диагностического сравнения. Декодер обучается на разностях обучающей выборки. Его точность не является самостоятельным решением задачи дискретного логарифмирования."
+}
