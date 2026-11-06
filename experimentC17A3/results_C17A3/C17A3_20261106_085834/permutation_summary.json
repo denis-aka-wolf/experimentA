@@ -1,0 +1,18 @@
+{
+  "train_point_count": 54,
+  "test_point_count": 18,
+  "train_pair_count": 2862,
+  "test_pair_count": 306,
+  "observed_xy_control_mae": 18.526143790849673,
+  "observed_displacement_mae": 18.607843137254903,
+  "observed_improvement": -0.08169934640523024,
+  "permutation_count": 199,
+  "null_displacement_mean": 18.14617203665386,
+  "null_displacement_std": 0.8593472509966298,
+  "null_displacement_min": 15.15359477124183,
+  "null_displacement_max": 20.4281045751634,
+  "null_improvement_mean": 0.07353762275429455,
+  "null_improvement_std": 1.1409790994255213,
+  "p_value_displacement": 0.7,
+  "p_value_improvement": 0.575
+}
