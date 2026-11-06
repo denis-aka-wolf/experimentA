@@ -1,0 +1,24 @@
+{
+    "curve": {
+        "p": 499,
+        "a": 0,
+        "b": 7,
+        "generator": [
+            3,
+            212
+        ],
+        "group_order": 73
+    },
+    "repeat_count": 10,
+    "fold_count": 6,
+    "permutation_count": 999,
+    "main_trees": 80,
+    "permutation_trees": 32,
+    "random_seed": 1702,
+    "feature_dimensions": {
+        "xy_control": 4,
+        "euclidean_geometry": 10,
+        "lift_geometry": 5,
+        "combined_geometry": 19
+    }
+}

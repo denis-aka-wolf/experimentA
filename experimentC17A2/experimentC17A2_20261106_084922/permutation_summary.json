@@ -1,0 +1,19 @@
+{
+    "fixed_test_fold": 1,
+    "test_point_count": 12,
+    "test_pair_count": 132,
+    "permutation_count": 999,
+    "observed_control_mae_circular": 17.893939393939394,
+    "observed_euclidean_mae_circular": 14.568181818181818,
+    "observed_control_accuracy": 0.015151515151515152,
+    "observed_euclidean_accuracy": 0.022727272727272728,
+    "observed_improvement": 3.325757575757576,
+    "null_mean_euclidean_mae": 18.079465829465825,
+    "null_std_euclidean_mae": 1.1586051919680789,
+    "null_min_euclidean_mae": 15.18939393939394,
+    "null_max_euclidean_mae": 22.598484848484848,
+    "null_mean_improvement": -0.02061152061152059,
+    "null_std_improvement": 0.7779041882397035,
+    "p_value_euclidean_error": 0.001,
+    "p_value_improvement_over_control": 0.001
+}
