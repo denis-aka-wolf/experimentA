@@ -1,0 +1,58 @@
+{
+    "xy_control__ExtraTrees": {
+        "mae_linear": 17.968434343434343,
+        "mae_circular": 17.50631313131313,
+        "accuracy": 0.011363636363636364,
+        "exact_count": 9,
+        "sample_count": 792
+    },
+    "xy_control__KNN": {
+        "mae_linear": 18.78787878787879,
+        "mae_circular": 18.161616161616163,
+        "accuracy": 0.015151515151515152,
+        "exact_count": 12,
+        "sample_count": 792
+    },
+    "euclidean_geometry__ExtraTrees": {
+        "mae_linear": 14.970959595959595,
+        "mae_circular": 14.718434343434344,
+        "accuracy": 0.016414141414141416,
+        "exact_count": 13,
+        "sample_count": 792
+    },
+    "euclidean_geometry__KNN": {
+        "mae_linear": 18.439393939393938,
+        "mae_circular": 17.883838383838384,
+        "accuracy": 0.005050505050505051,
+        "exact_count": 4,
+        "sample_count": 792
+    },
+    "lift_geometry__ExtraTrees": {
+        "mae_linear": 22.880050505050505,
+        "mae_circular": 19.877525252525253,
+        "accuracy": 0.008838383838383838,
+        "exact_count": 7,
+        "sample_count": 792
+    },
+    "lift_geometry__KNN": {
+        "mae_linear": 24.575757575757574,
+        "mae_circular": 19.404040404040405,
+        "accuracy": 0.020202020202020204,
+        "exact_count": 16,
+        "sample_count": 792
+    },
+    "combined_geometry__ExtraTrees": {
+        "mae_linear": 16.416666666666668,
+        "mae_circular": 16.079545454545453,
+        "accuracy": 0.013888888888888888,
+        "exact_count": 11,
+        "sample_count": 792
+    },
+    "combined_geometry__KNN": {
+        "mae_linear": 18.646464646464647,
+        "mae_circular": 18.065656565656564,
+        "accuracy": 0.005050505050505051,
+        "exact_count": 4,
+        "sample_count": 792
+    }
+}

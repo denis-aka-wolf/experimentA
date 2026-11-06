@@ -1,0 +1,12 @@
+{
+    "observed_combined_mae_circular": 16.079545454545453,
+    "observed_control_mae_circular": 17.50631313131313,
+    "observed_improvement": 1.4267676767676782,
+    "null_mean_combined_mae": 18.03885003885004,
+    "null_min_combined_mae": 17.15530303030303,
+    "null_max_combined_mae": 19.300505050505052,
+    "null_mean_improvement": 0.002136752136752015,
+    "p_value_combined_error": 0.025,
+    "p_value_improvement": 0.025,
+    "permutation_count": 39
+}
