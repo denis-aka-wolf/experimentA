@@ -1,0 +1,35 @@
+{
+  "experiment": "C17A4",
+  "field_p": 499,
+  "curve_a": 0,
+  "curve_b": 7,
+  "generator": [
+    3,
+    212
+  ],
+  "group_order": 73,
+  "point_count": 72,
+  "repeat_count": 10,
+  "test_point_count": 18,
+  "permutation_count": 999,
+  "tree_count": 100,
+  "max_depth": null,
+  "min_samples_leaf": 2,
+  "random_seed": 17404,
+  "feature_families": {
+    "xy_control": [
+      "xa",
+      "ya",
+      "xb",
+      "yb"
+    ],
+    "polar": [
+      "distance",
+      "direction_x",
+      "direction_y"
+    ]
+  },
+  "target_encoding": "cos(2*pi*delta/73), sin(2*pi*delta/73)",
+  "prediction_method": "antisymmetric forward-reverse averaging",
+  "permutation_unit": "scalar assignment to points"
+}

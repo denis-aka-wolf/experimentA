@@ -1,0 +1,30 @@
+{
+  "train_point_count": 54,
+  "test_point_count": 18,
+  "train_pair_count": 2862,
+  "test_pair_count": 306,
+  "observed_xy_control_mae": 19.062091503267975,
+  "observed_polar_mae": 15.529411764705882,
+  "observed_improvement": 3.532679738562093,
+  "observed_xy_control_accuracy": 0.02287581699346405,
+  "observed_polar_accuracy": 0.0196078431372549,
+  "permutation_count": 999,
+  "null_xy_control_mean": 18.22943204642551,
+  "null_xy_control_std": 0.7574087165511554,
+  "null_polar_mean": 18.29099687923217,
+  "null_polar_std": 0.8082686644989932,
+  "null_polar_min": 15.751633986928105,
+  "null_polar_max": 20.833333333333332,
+  "null_improvement_mean": -0.061564832806662785,
+  "null_improvement_std": 1.042536826418351,
+  "null_improvement_min": -3.660130718954248,
+  "null_improvement_max": 2.8431372549019613,
+  "p_value_polar_error": 0.001,
+  "p_value_improvement": 0.001,
+  "p_value_control_error": 0.878,
+  "polar_feature_importance": {
+    "distance": 0.40402930444298785,
+    "direction_x": 0.22012279156736395,
+    "direction_y": 0.3758479039896481
+  }
+}
